@@ -22,6 +22,7 @@ p {
   text-align: center;
   margin: 30px 0 10px 0;
 }
+
 h4 {
   color: black ;
   padding: 8px;
@@ -33,6 +34,7 @@ h4 {
   margin-top: 2vh;
   margin-bottom: 2vh;
   max-width: 100%;
+  min-width: 100px;
 }
 
 .attribution a {
@@ -50,7 +52,8 @@ h4 {
   margin: auto;
   margin-top: 10vh;
   padding: 30px;
-  max-width: 300%;
+ 
+  
   position: relative;
   left: 25%;
   border-radius: 20px;
@@ -59,6 +62,8 @@ h4 {
 @media (min-width: 660px) {
   .main-body {
     align-items: left;
+    height: 50%;
+
   }
 }
 
